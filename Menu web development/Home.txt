@@ -1,0 +1,173 @@
+<html>
+
+<head>
+<title>Euphoria</title>
+<style type="text/css">
+body{
+background-image:url("foodbackground.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+
+}
+.topnav {
+  background-color: green;
+  overflow: hidden;
+}
+
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: green;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: white;
+  color: white;
+}
+h1 { color:white; font-decoration:italic; text-align:center; background-color:green;}
+p  { color:white; font-decoration:italic; text-align:left; background-color:green;}
+.Bigbox {
+ max-width:100%;
+ height:60%;  
+padding:20px; 
+}
+.float1 {
+			     width:20%;
+				 height:70%;
+				 float:left;
+			     margin-left:20px;
+				 position:relative;
+				 left: 15%;
+				 top:15%;
+				 color:green;
+				 background-color:white;
+				 box-shadow: 10px 15px green;
+				 border-radius:10px;
+			              }
+			 
+
+.float2 {
+			        width:30%;
+				    height:70%;
+				    float:left;
+					margin-left:20px;
+					position:relative;
+					left:15%;
+					top:15%;
+					color:green;
+					background-color:white;
+					box-shadow: 10px 15px green;
+			 		border-radius:5px;
+			              }
+					
+	
+.float3 {
+			        width:40%;
+	                height:90%;
+				    float:left;
+					margin-left:20px;
+					position:relative;
+					left:15%;
+					top:15%;
+					color:green;
+					background-color:white;
+					border: 1px solid ;
+					box-shadow: 10px 15px green;
+					border-radius:5px;
+			            }
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+</style>
+</head>
+
+<body>
+<img style = "display:block; margin-left:auto; margin-right:auto"
+src = "logo1.png" width = "300" hieght = "400">
+<h1>Pak-China Fusion Food</h1>
+<div class = "topnav">
+<a href = "Home.html" style = "text:align:right; font-size:20px;">Home</a>
+<a href = "Menu.html">Menu</a>
+<a href = "Aboutus.html">About Us</a>
+<a href = "location.html">Location</a>
+<a href = "contactus.html">Contact</a>
+<a href = "Feedback.html">Feedback</a>
+</div>
+<marquee behaviour = "scroll" direction = "right">
+<img src = "outsideseating.jpg" width = "300" height = "300" alt = "Outside Seating">
+<img src = "butterflyShrimp.jpg" widht = "300" height = "300" alt = "butterflyShrimp">
+<img src = "Gulab-Jamun.jpg" widht = "300" height = "300" alt = "Gulab Jamun">
+<img src = "images.jpg" width = "300" height = "300" alt = "images">
+<img src = "lahoremasalashrimp.jpg" widtt = "300" height = "300" alt = "lahoremasala">
+<img src = "pineapple.jpg" width = "300" height = "300" alt = "pineapple">
+</marquee>
+
+<h1><i><b>Take Our Survey(get 10% off)</i></b></h2>
+<form action="http://www.WebsiteDevelopmentBook.com/FormEcho.php" method="post">
+<fieldset>
+<ol>
+<li><p style = "font-size:25px">What is your favorite Entree?<p></li>
+<img src = "stuffedchicken.jpg" widht = "175" height = "175"> <input type="radio" name="food" value="stuffedchicken"/>
+<img src = "lahoremasalashrimp.jpg" widht = "175" height = "175"><input type="radio" name="food1" value="lahoremasalashrimp"/>
+<img src = "chickentikkamasala.jpg" width = "175" height = "175"><input type="radio" name="food2" value="chickentikkamasala"/>
+<li><p style = "font-size:25px;">What is your favorite desert?<p></li>
+<img src = "Gulab-Jamun.jpg" widht = "150" height = "150"> <input type="radio" name="food3" value="gulabjamun"/>
+<img src = "triffel.jpg" widht = "150" height = "150"><input type="radio" name="food4" value="triffel"/>
+<img src = "pineapple.jpg" width = "150" height = "150"><input type="radio" name="food5" value="pineapple"/>
+</ol>
+<input type="submit" value="Submit"/>
+</form> 
+</fieldset>
+<fieldset>
+<h1> Scroll Down </h1>
+<div class="BigBox">
+
+<div class="float1">
+<center>
+<h2>Hours</h2>
+<h4>Monday - Sunday</h4>
+<h4>2:00pm - 11:00pm</h4>
+</center>
+</div>
+
+
+<div class="float2">
+
+<div class="hours" style="width:100%; height:50%;">
+<center>
+<a href = "Location.html">Location</a>
+<h3>272-18 Union Turnpike, Queens, NY 11040</h3>
+</center>
+
+<hr>
+</div>
+
+<div class="floatdivboxtext" style="width:100%; height:15%; position:relative; top: 45px;">
+<center>
+<p><h4>Phone Number</h4></p>
+<p><h4>917-658-9083</h4></p>
+</center>
+</div>
+
+</body>
+
+
+
+</html>
